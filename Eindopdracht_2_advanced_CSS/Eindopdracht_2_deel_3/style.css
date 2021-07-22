@@ -1,0 +1,87 @@
+@charset "UTF-8";
+body {
+  margin: 0;
+  height: 1000px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+  background-color: darkgrey;
+}
+
+.social-media {
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  list-style-type: none;
+  overflow: hidden;
+}
+.social-media a {
+  text-decoration: none;
+  color: white;
+}
+.social-media .blog {
+  background-color: #e17b77;
+  padding: 10px;
+  transform: translateX(230px);
+  transition-duration: 700ms;
+}
+.social-media .blog .fa-laptop-code::before {
+  font-family: "Font Awesome 5 Brands";
+  content: "";
+  font-size: 30px;
+  padding: 10px;
+}
+.social-media .facebook {
+  background-color: #3b5998;
+  padding: 10px;
+  transform: translateX(230px);
+  transition-duration: 700ms;
+}
+.social-media .facebook .fa-facebook::before {
+  font-family: "Font Awesome 5 Brands";
+  content: "";
+  font-size: 30px;
+  padding: 10px;
+  padding-right: 21px;
+}
+.social-media .twitter {
+  background-color: #00aced;
+  padding: 10px;
+  transform: translateX(230px);
+  transition-duration: 700ms;
+}
+.social-media .twitter .fa-twitter::before {
+  font-family: "Font Awesome 5 Brands";
+  content: "";
+  font-size: 30px;
+  padding: 10px;
+}
+.social-media .github {
+  background-color: #333;
+  padding: 10px;
+  transform: translateX(230px);
+  transition-duration: 700ms;
+}
+.social-media .github .fa-github::before {
+  font-family: "Font Awesome 5 Brands";
+  content: "";
+  font-size: 30px;
+  padding: 10px;
+}
+.social-media .linkedin {
+  background-color: #007bb6;
+  padding: 10px;
+  transform: translateX(230px);
+  transition-duration: 700ms;
+}
+.social-media .linkedin .fa-linkedin::before {
+  font-family: "Font Awesome 5 Brands";
+  content: "";
+  font-size: 30px;
+  padding: 10px;
+}
+.social-media li:hover {
+  transform: translateX(0px);
+  transition-duration: 700ms;
+}/*# sourceMappingURL=style.css.map */
